@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário</title>
+</head>
+
+<body style="background-color: #E0FFB9;">
+    <form action="dados.php" method="post">
+        <fieldset style="width: 40%; margin-left: auto;margin-right: auto;">
+            <legend style="margin-left: auto;margin-right: auto;">
+                <h2>Preencha o Formulário</h2>
+            </legend>
+
+            <label for="nome">Digite seu nome:</label>
+            <br>
+            <input type="text"><br><br>
+
+            <label for="sobrenome">Digite seu sobrenome:</label>
+            <br>
+            <input type="text"><br><br>
+
+            <label for="email">Digite seu email:</label>
+            <br>
+            <input type="email"><br><br>
+
+            <label for="senha">Digite sua senha:</label>
+            <br>
+            <input type="password"><br><br>
+
+            <label for="repitasenha">Repita sua senha:</label>
+            <br>
+            <input type="password"><br><br>
+
+            <label for="datanasc">Digite sua data de nascimento:</label>
+            <br>
+            <input type="date"><br><br>
+
+            <label for="genero">Gênero</label>
+            <br>
+            <label for="genero" id="genero" name>Masculino</label>
+            <input type="radio" id="genero" name="genero"><br>
+            <label for="genero">Feminino</label>
+            <input type="radio" id="genero" name="genero"><br>
+            <label for="genero">Outros</label>
+            <input type="radio" id="genero" name="genero"><br>
+        </fieldset><br>
+        <input type="submit">
+    </form>
+</body>
+
+</html>
