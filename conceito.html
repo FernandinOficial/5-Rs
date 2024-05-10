@@ -1,11 +1,170 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Conceito - 5 R's</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            background-color: #E0FFB9;
+        }
+
+        .div1 {
+            padding: 3%;
+            display: flex;
+            align-items: center;
+            float: left;
+            width: 95%;
+            margin-left: auto;
+        }
+
+        .div2 {
+            padding: 3%;
+            display: flex;
+            align-items: center;
+            float: right;
+            width: 95%;
+            margin-right: auto;
+        }
+
+        .div__img {
+            padding: 2%;
+            background-color: #D9D9D9;
+            border-radius: 58px;
+        }
+
+        img {
+            width: 300px;
+        }
+
+        h2 {
+            padding: 0 0 0 40%;
+            /*Alinhar somente referente a left: padding left*/
+            font-family: sans-serif;
+            font-size: 45px;
+        }
+
+        p {
+            padding: 3%;
+            font-family: sans-serif;
+            font-size: 30px;
+        }
+
+        .lixeira {
+            width: 170px;
+        }
+
+        .planta {
+            width: 105px;
+            height: 135px;
+        }
+
+        .imagens {
+            display: flex;
+            align-items: end;
+        }
+    </style>
 </head>
+
 <body>
-    
+    <header style="height: 100px;display: flex;align-items: center;justify-content: center;">
+        <a href="index.html">
+            <h1 style="font-size: 100px;">5 R's</h1>
+        </a>
+    </header>
+
+    <nav>
+        <a href="formulario.html" target="_blank" id="a__login">
+            <h2>Login</h2>
+        </a>
+        <a href="#sobre" id="a__sobre">
+            <h2>Sobre</h2>
+        </a>
+    </nav>
+    <main>
+        <div class="div1" id="repensar">
+            <div class="div__img">
+                <img src="imagens/repensar.png" alt="Imagem repensar">
+            </div>
+            <div>
+                <h2>Repensar</h2>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nobis quas pariatur, assumenda fugiat ipsa,
+                    corrupti autem obcaecati quaerat error tempore quidem. Blanditiis magni exercitationem voluptas
+                    soluta
+                    beatae, similique molestiae? Doloremque.</p>
+            </div>
+        </div>
+        <br>
+        <div class="div2" id="recusar">
+            <div>
+                <h2>Recusar</h2>
+
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Atque, amet voluptate, rem voluptates
+                    distinctio dolor qui harum similique quibusdam enim adipisci, suscipit necessitatibus? Ut ex a minus
+                    aliquam tenetur qui?</p>
+            </div>
+            <div class="div__img">
+                <img src="imagens/recusar.png" alt="Imagem recusar">
+            </div>
+        </div>
+        <br>
+        <div class="div1" id="reduzir">
+            <div class="div__img">
+                <img src="imagens/reduzir.png" alt="Imagem reduzir">
+            </div>
+            <div>
+                <h2>Reduzir</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem neque incidunt voluptas blanditiis
+                    reprehenderit debitis est qui, nisi quibusdam minus doloribus dignissimos ab veritatis repudiandae
+                    accusamus iure temporibus nobis? Velit.</p>
+            </div>
+        </div>
+        <br>
+        <div class="div2" id="reutilizar">
+            <div>
+                <h2>Reutilizar</h2>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Alias repellat modi voluptatibus officia
+                    quod
+                    saepe fugiat assumenda necessitatibus quo minus, corrupti similique itaque expedita nemo accusamus
+                    tenetur voluptatem? Consectetur, commodi.</p>
+            </div>
+            <div class="div__img">
+                <img src="imagens/reutilizar.png" alt="Imagem reutilizar">
+            </div>
+        </div>
+        <br>
+        <div class="div1" id="reciclar">
+            <div class="div__img">
+                <img src="imagens/reciclar.png" alt="Imagem reciclar">
+            </div>
+            <div>
+                <h2>Reciclar</h2>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quis ad alias explicabo. Ut sapiente magni
+                    quo
+                    blanditiis, iusto ullam. Ab mollitia consequatur tenetur possimus error itaque architecto unde
+                    veritatis
+                    nulla?</p>
+            </div>
+        </div>
+    </main>
+    <br>
+    <footer id="sobre">
+        <div class="imagens">
+            <div class="lixeira">
+                <img class="lixeira" src="imagens/lixeira.png" alt="lixeira" style="float: left;">
+            </div>
+
+            <div class="planta">
+                <img class="planta" src="imagens/planta.png" alt="plantinha" style="float: right;">
+            </div>
+        </div>
+    </footer>
 </body>
+
 </html>
